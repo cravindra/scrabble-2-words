@@ -1,7 +1,9 @@
 # Scrabble-words
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A simple  ember App I put together for my grandparents to easily find valid 2 letter words while playing scrabble.
+{Previously they used to have a long print out which they used to manually scan through)
+
+You can see a live demo here [Live Demo](http://thuttu-thata.surge.sh/)
 
 ## Prerequisites
 
@@ -25,9 +27,9 @@ You will need the following things properly installed on your computer.
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+### Contributing
 
-Make use of the many generators for code, try `ember help generate` for more details
+May come back to this later to make it a more comprehensive scrabble help tool. Things like having all thee valid scrabble words, intelligent word guessers, (given a set of constraints like board state and available chips, list all valid words). Feel free to suggest/add new features.
 
 ### Running Tests
 
@@ -39,9 +41,9 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+### Demo
 
-Specify what it takes to deploy your app.
+You can see a live demo here [Live Demo](http://thuttu-thata.surge.sh/)
 
 ## Further Reading / Useful Links
 
