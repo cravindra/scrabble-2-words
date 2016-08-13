@@ -1,1 +1,406 @@
-["aa","ab","ad","ae","ag","ah","ai","al","am","an","ar","as","at","aw","ax","ay","ba","be","bi","bo","by","ch","da","de","di","do","ea","ed","ee","ef","eh","el","em","en","er","es","et","ex","fa","fe","fy","gi","go","gu","ha","he","hi","hm","ho","id","if","in","io","is","it","ja","jo","ka","ki","ko","ky","la","li","lo","ma","me","mi","mm","mo","mu","my","na","ne","no","nu","ny","ob","od","oe","of","oh","oi","om","on","oo","op","or","os","ou","ow","ox","oy","pa","pe","pi","po","qi","re","sh","si","so","st","ta","te","ti","to","ug","uh","um","un","up","ur","us","ut","we","wo","xi","xu","ya","ye","yo","yu","za","zo"]
+[
+  {
+    "w": "AA",
+    "m": "Rough, cindery lava"
+  },
+  {
+    "w": "AB",
+    "m": "Abdominal muscle {OSPD3}"
+  },
+  {
+    "w": "AD",
+    "m": "Advertisement"
+  },
+  {
+    "w": "AE",
+    "m": "One"
+  },
+  {
+    "w": "AG",
+    "m": "Pert. to agriculture"
+  },
+  {
+    "w": "AH",
+    "m": "To exclaim in amazement"
+  },
+  {
+    "w": "AI",
+    "m": "Three-toed sloth"
+  },
+  {
+    "w": "AL",
+    "m": "East Indian tree"
+  },
+  {
+    "w": "AM",
+    "m": "[be-conj] (to exist)"
+  },
+  {
+    "w": "AN",
+    "m": "Indefinite article"
+  },
+  {
+    "w": "AR",
+    "m": "Letter 'r'"
+  },
+  {
+    "w": "AS",
+    "m": "To the same degree"
+  },
+  {
+    "w": "AT",
+    "m": "In the location of"
+  },
+  {
+    "w": "AW",
+    "m": "Intj. expressing disbelief"
+  },
+  {
+    "w": "AX",
+    "m": "To cut with an ax"
+  },
+  {
+    "w": "AY",
+    "m": "Aye"
+  },
+  {
+    "w": "BA",
+    "m": "Eternal soul in Egyptian mythology"
+  },
+  {
+    "w": "BE",
+    "m": "To exist"
+  },
+  {
+    "w": "BI",
+    "m": "Bisexual"
+  },
+  {
+    "w": "BO",
+    "m": "Pal"
+  },
+  {
+    "w": "BY",
+    "m": "Side issue"
+  },
+  {
+    "w": "DE",
+    "m": "Of, from"
+  },
+  {
+    "w": "DO",
+    "m": "To execute/first tone of musical scale"
+  },
+  {
+    "w": "ED",
+    "m": "Education {OSPD3}"
+  },
+  {
+    "w": "EF",
+    "m": "Letter 'f'"
+  },
+  {
+    "w": "EH",
+    "m": "Intj. used to indicate lack of understanding"
+  },
+  {
+    "w": "EL",
+    "m": "Letter 'l'"
+  },
+  {
+    "w": "EM",
+    "m": "Printer's measurement"
+  },
+  {
+    "w": "EN",
+    "m": "Printer's measurement"
+  },
+  {
+    "w": "ER",
+    "m": "Intj. expressing hesitation"
+  },
+  {
+    "w": "ES",
+    "m": "Letter 's'"
+  },
+  {
+    "w": "ET",
+    "m": "[eat-conj] (to consume)"
+  },
+  {
+    "w": "EX",
+    "m": "Letter 'x'"
+  },
+  {
+    "w": "FA",
+    "m": "Fourth tone of diatonic musical scale"
+  },
+  {
+    "w": "FE",
+    "m": "Hebrew letter (feh, pe) {OSPD4}"
+  },
+  {
+    "w": "GO",
+    "m": "To leave/Japanese board game"
+  },
+  {
+    "w": "HA",
+    "m": "Sound expressing triumph"
+  },
+  {
+    "w": "HE",
+    "m": "Male person"
+  },
+  {
+    "w": "HI",
+    "m": "Intj. used as a greeting"
+  },
+  {
+    "w": "HM",
+    "m": "Intj. expressing thought (hmm)"
+  },
+  {
+    "w": "HO",
+    "m": "Intj. used to attract attention to something"
+  },
+  {
+    "w": "ID",
+    "m": "Part of psyche related to instinctual impulses"
+  },
+  {
+    "w": "IF",
+    "m": "Possible condition"
+  },
+  {
+    "w": "IN",
+    "m": "Influence"
+  },
+  {
+    "w": "IS",
+    "m": "[be-conj] (to exist)"
+  },
+  {
+    "w": "IT",
+    "m": "Person playing tag/indefinite pronoun"
+  },
+  {
+    "w": "JO",
+    "m": "Sweetheart"
+  },
+  {
+    "w": "KA",
+    "m": "Egyptian spiritual self"
+  },
+  {
+    "w": "KI",
+    "m": "Vital life-sustaining energy force (qi) {OSPD4}"
+  },
+  {
+    "w": "LA",
+    "m": "Sixth tone of diatonic musical scale"
+  },
+  {
+    "w": "LI",
+    "m": "Chinese unit of distance"
+  },
+  {
+    "w": "LO",
+    "m": "Intj. used to attract attention"
+  },
+  {
+    "w": "MA",
+    "m": "Mother"
+  },
+  {
+    "w": "ME",
+    "m": "Pronoun referring to myself"
+  },
+  {
+    "w": "MI",
+    "m": "Third tone of diatonic musical scale"
+  },
+  {
+    "w": "MM",
+    "m": "Intj. expressing satisfaction"
+  },
+  {
+    "w": "MO",
+    "m": "Moment"
+  },
+  {
+    "w": "MU",
+    "m": "Greek letter"
+  },
+  {
+    "w": "MY",
+    "m": "Possessive prounoun"
+  },
+  {
+    "w": "NA",
+    "m": "No"
+  },
+  {
+    "w": "NE",
+    "m": "Born with the name of (nee)"
+  },
+  {
+    "w": "NO",
+    "m": "Negative reply"
+  },
+  {
+    "w": "NU",
+    "m": "Greek letter"
+  },
+  {
+    "w": "OD",
+    "m": "Hypothetical force of natural power"
+  },
+  {
+    "w": "OE",
+    "m": "Faroean wind"
+  },
+  {
+    "w": "OF",
+    "m": "Coming from"
+  },
+  {
+    "w": "OH",
+    "m": "To exclaim \"oh\""
+  },
+  {
+    "w": "OI",
+    "m": "Intj. expressing dismay (oy) {OSPD4}"
+  },
+  {
+    "w": "OM",
+    "m": "Mantra used in meditation"
+  },
+  {
+    "w": "ON",
+    "m": "Side of wicket where cricket batsman stands"
+  },
+  {
+    "w": "OP",
+    "m": "Style of abstract art"
+  },
+  {
+    "w": "OR",
+    "m": "Heraldic color gold"
+  },
+  {
+    "w": "OS",
+    "m": "Orifice/bone/ridge of sand (esker)"
+  },
+  {
+    "w": "OW",
+    "m": "Intj. expressing sudden pain"
+  },
+  {
+    "w": "OX",
+    "m": "Hoofed mammal/clumsy person"
+  },
+  {
+    "w": "OY",
+    "m": "Intj. expressing dismay"
+  },
+  {
+    "w": "PA",
+    "m": "Father"
+  },
+  {
+    "w": "PE",
+    "m": "Hebrew letter"
+  },
+  {
+    "w": "PI",
+    "m": "Greek letter/to jumble"
+  },
+  {
+    "w": "QI",
+    "m": "Vital life-sustaining energy force {OSPD4}"
+  },
+  {
+    "w": "RE",
+    "m": "Second tone of diatonic musical scale"
+  },
+  {
+    "w": "SH",
+    "m": "Intj. used to urge silence (shh)"
+  },
+  {
+    "w": "SI",
+    "m": "Seventh tone of diatonic musical scale (ti)"
+  },
+  {
+    "w": "SO",
+    "m": "Fifth tone of diatonic musical scale"
+  },
+  {
+    "w": "TA",
+    "m": "Thanks"
+  },
+  {
+    "w": "TI",
+    "m": "Seventh tone of diatonic musical scale"
+  },
+  {
+    "w": "TO",
+    "m": "Toward"
+  },
+  {
+    "w": "UH",
+    "m": "Intj. expressing hesitation"
+  },
+  {
+    "w": "UM",
+    "m": "Intj. expressing hesitation"
+  },
+  {
+    "w": "UN",
+    "m": "One"
+  },
+  {
+    "w": "UP",
+    "m": "To raise"
+  },
+  {
+    "w": "US",
+    "m": "Objective pronoun for \"we\""
+  },
+  {
+    "w": "UT",
+    "m": "Musical tone in French solmization system"
+  },
+  {
+    "w": "WE",
+    "m": "Plural pronoun"
+  },
+  {
+    "w": "WO",
+    "m": "Woe"
+  },
+  {
+    "w": "XI",
+    "m": "Greek letter"
+  },
+  {
+    "w": "XU",
+    "m": "Vietnamese monetary unit"
+  },
+  {
+    "w": "YA",
+    "m": "You"
+  },
+  {
+    "w": "YE",
+    "m": "You"
+  },
+  {
+    "w": "YO",
+    "m": "Intj. used to call attention {OSPD3}"
+  },
+  {
+    "w": "ZA",
+    "m": "Pizza {OSPD4}"
+  }
+]

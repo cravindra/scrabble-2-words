@@ -4,15 +4,22 @@
 </p>
 
 <div class="box">
-  {{#each filteredWords as |word|}}
-      <span class="tag is-dark is-large">{{word}}</span>
+  {{#if showDetail}}
+      <span class="tag title is-primary is-large">{{what.w}}</span>
+      <h2 class="title">Meaning:</h2>
+      <h2 class="subtitle">{{what.m}}</h2>
+
   {{else}}
-      <div class="message is-warning">
-          <div class="content is-large">
-              <p class="is-large is-centered has-text-centered is-narrow message-header">
-                  <i class="fa  fa-meh-o"></i> Nothing matches "{{searchKey}}"
-              </p>
-          </div>
-      </div>
-  {{/each}}
+    {{#each filteredWords as |word|}}
+        <span class="tag is-dark is-large">{{word.w}}</span>
+    {{else}}
+        <div class="message is-warning">
+            <div class="content is-large">
+                <p class="is-large is-centered has-text-centered is-narrow message-header">
+                    <i class="fa  fa-meh-o"></i> Nothing matches "{{searchKey}}"
+                </p>
+            </div>
+        </div>
+    {{/each}}
+  {{/if}}
 </div>

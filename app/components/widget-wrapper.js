@@ -8,6 +8,14 @@ export default Ember.Component.extend({
     if(!searchKey || searchKey===''){
       return words.map(d=>d);
     }
-    return words.filter(d=>(d.indexOf(searchKey)===0));
-  }.property('searchKey')
+    return words.filter(d=>(d.w.indexOf(searchKey.toUpperCase())===0));
+  }.property('searchKey'),
+  showDetail:function(){
+    var fw=this.get('filteredWords');
+    return fw.length===1;
+  }.property('filteredWords.[]'),
+  what:function(){
+    var fw=this.get('filteredWords');
+    return fw[0];
+  }.property('filteredWords.[]')
 });
